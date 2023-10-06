@@ -1,0 +1,1258 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+a{
+    color: white;
+}
+.bmi{
+    height: 80vh;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bmi-1{
+    height: 80vh;
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+}
+.bmi-1 img{
+    height: 50vh;
+}
+.bmi-2{
+    height: 80vh;
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+    border: 5px solid whitesmoke;
+    /* background-image: url('login.jfif');
+    background-size: cover; */
+}
+.bmi-2 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: 100%;
+}
+.bmi-2 label{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    font-weight: 600;
+    text-align: center;
+}
+.bmi-2 input{
+    height: 5vh;
+    width: 30vw;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.bmi-2 button{
+    background-color: yellow;
+    height: 5vh;
+    width: 15vw;
+    font-size: 1.5;
+    font-weight: 700;
+    border: 2px solid yellow;
+}
+.bmi-2 p{
+    color: whitesmoke;
+    font-weight: 600;
+}
+.bmi-2 select{
+    height: 6vh;
+    width: 25vw;
+}
+.gender{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 7vh;
+    width: 90%;
+}
+/* PUSH PULL LEGS */
+.PPL{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #171717;
+}
+.PPL-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90vh;
+    width: 100%;
+}
+.PPL-1 h1{
+    color: whitesmoke;
+}
+.PPL-1 h2{
+    color: #fcd110;
+}
+.PPL-11{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 8vh;
+    width: 100%;
+}
+.PPL-11 button{
+    height: 6vh;
+    width: 10vw;
+    background-color: #ff1616;
+    border: 2px solid #ff1616;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.PPL-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.PPL-2 table{
+    width: 100%;
+    border: 2px solid transparent;
+    color: #fcd110;
+}
+.PPL-2 table tr{
+    height: 5vh;
+    width: 100%;
+    border: 2px solid black;
+}
+.PPL-2 table td{
+    height: 5vh;
+    border: 5px solid black;
+}
+.landing-page{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background: #171717;
+}
+.landing-page img{
+    height: 80vh;
+}
+.wlandingpage{
+    height: 80vh;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.wlandingpage-1{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.wlandingpage-1 img{
+    height:80vh;
+}
+.wlandingpage-2{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 55%;
+}
+.wlandingpage-2 p{
+    color: whitesmoke;
+}
+.wl-1{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.wl-11{
+    height: 30vh;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #c12518;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wl-11 h2{
+    color: whitesmoke;
+}
+.wl-11 p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.wl-111{
+    height: 30vh;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wl-111 h2{
+    color: #fcd110;
+}
+.wl-111 p{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.diy{
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.diy img{
+    height: 80vh;
+}
+@media screen and (min-width:300px) and (max-width:480px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .bmi{
+        height: 200vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .bmi-1{
+        height: 90vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .bmi-1 img{
+        height: 24vh;
+    }
+    .bmi-1 p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .bmi-2{
+        height: 110vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 90%;
+        border: 5px solid whitesmoke;
+        /* background-image: url('login.jfif');
+        background-size: cover; */
+    }
+    .bmi-2 form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 90vh;
+        width: 100%;
+    }
+    .bmi-2 label{
+        text-align: center;
+        font-size: 1.5rem;
+        color: whitesmoke;
+        font-weight: 600;
+    }
+    .bmi-2 input{
+        height: 5vh;
+        width: 80vw;
+        font-size: 1.2rem;
+        font-family: sans-serif;
+    }
+    .bmi-2 button{
+        background-color: yellow;
+        height: 5vh;
+        width: 35vw;
+        font-size: 1.2rem;
+        font-weight: 700;
+        border: 2px solid yellow;
+    }
+    .bmi-2 p{
+        color: whitesmoke;
+        font-weight: 600;
+    }
+    .bmi-2 select{
+        height: 6vh;
+        width: 25vw;
+    }
+    .gender{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 7vh;
+        width: 90%;
+    }
+    /* PUSH PULL LEGS */
+    .PPL{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #171717;
+    }
+    .PPL-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 90vh;
+        width: 100%;
+    }
+    .PPL-1 h1{
+        color: whitesmoke;
+    }
+    .PPL-1 h2{
+        color: #fcd110;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .PPL-11{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 8vh;
+        width: 100%;
+    }
+    .PPL-11 button{
+        height: 6vh;
+        width: 30vw;
+        background-color: #ff1616;
+        border: 2px solid #ff1616;
+        color: whitesmoke;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .PPL-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .PPL-2 table{
+        width: 90%;
+        border: 2px solid transparent;
+        color: gray;
+    }
+    .PPL-2 table tr{
+        height: 5vh;
+        border: 2px solid black;
+        width: 10%;
+    }
+    .PPL-2 table td{
+        border: 10px solid green;
+        height: 5vh;
+        border: 5px solid black;
+        font-size: 0.75rem;
+    }
+    .landing-page{
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        background: black;
+    }
+    .landing-page img{
+        height: 25vh;
+    }
+    /* NEWWW */
+    .wlandingpage{
+        height: 270vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .wlandingpage-1{
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .wlandingpage-1 img{
+        height:45vh;
+    }
+    .wlandingpage-2{
+        height: 180vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .wlandingpage-2 p{
+        color: whitesmoke;
+        font-size: 1.5rem;
+    }
+    .wl-1{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .wl-11{
+        height: 30vh;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background-color: #c12518;
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .wl-11 h2{
+        color: whitesmoke;
+    }
+    .wl-11 p{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    .wl-111{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background-color: black;
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .wl-111 h2{
+        color: #fcd110;
+    }
+    .wl-111 p{
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    .diy{
+        height: 80vh;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .diy img{
+        height: 40vh;
+    }
+}
+@media screen and (min-width:481px) and (max-width:720px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .bmi{
+        height: 180vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .bmi-1{
+        height: 90vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .bmi-1 img{
+        height: 24vh;
+    }
+    .bmi-1 p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .bmi-2{
+        height: 80vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 90%;
+        border: 5px solid whitesmoke;
+        /* background-image: url('login.jfif');
+        background-size: cover; */
+    }
+    .bmi-2 form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 90vh;
+        width: 100%;
+    }
+    .bmi-2 label{
+        text-align: center;
+        font-size: 1.5rem;
+        color: whitesmoke;
+        font-weight: 600;
+    }
+    .bmi-2 input{
+        height: 5vh;
+        width: 80vw;
+        font-size: 1.2rem;
+        font-family: sans-serif;
+    }
+    .bmi-2 button{
+        background-color: yellow;
+        height: 5vh;
+        width: 35vw;
+        font-size: 1.2rem;
+        font-weight: 700;
+        border: 2px solid yellow;
+    }
+    .bmi-2 p{
+        color: whitesmoke;
+        font-weight: 600;
+    }
+    .bmi-2 select{
+        height: 6vh;
+        width: 25vw;
+    }
+    .gender{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 7vh;
+        width: 90%;
+    }
+    /* PUSH PULL LEGS */
+    .PPL{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #171717;
+    }
+    .PPL-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 90vh;
+        width: 100%;
+    }
+    .PPL-1 h1{
+        color: whitesmoke;
+    }
+    .PPL-1 h2{
+        color: #fcd110;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .PPL-11{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 8vh;
+        width: 100%;
+    }
+    .PPL-11 button{
+        height: 6vh;
+        width: 30vw;
+        background-color: #ff1616;
+        border: 2px solid #ff1616;
+        color: whitesmoke;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .PPL-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .PPL-2 table{
+        width: 90%;
+        border: 2px solid transparent;
+        color: #fcd110;
+    }
+    .PPL-2 table tr{
+        height: 5vh;
+        width: 90%;
+        border: 2px solid black;
+    }
+    .PPL-2 table td{
+        height: 5vh;
+        width: 8vw;
+
+    }
+    .landing-page{
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        background: black;
+    }
+    .landing-page img{
+        height: 25vh;
+    }
+    /* NEWWW */
+    .wlandingpage{
+        height: 270vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .wlandingpage-1{
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .wlandingpage-1 img{
+        height:45vh;
+    }
+    .wlandingpage-2{
+        height: 180vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .wlandingpage-2 p{
+        color: whitesmoke;
+        font-size: 1.5rem;
+    }
+    .wl-1{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .wl-11{
+        height: 30vh;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background-color: #c12518;
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .wl-11 h2{
+        color: whitesmoke;
+    }
+    .wl-11 p{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    .wl-111{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background-color: black;
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .wl-111 h2{
+        color: #fcd110;
+    }
+    .wl-111 p{
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    .diy{
+        height: 80vh;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .diy img{
+        height: 40vh;
+    }
+}
+@media screen and (min-width:721px) and (max-width:1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .bmi{
+        height: 180vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .bmi-1{
+        height: 90vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .bmi-1 img{
+        height: 24vh;
+    }
+    .bmi-1 p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .bmi-2{
+        height: 80vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 90%;
+        border: 5px solid whitesmoke;
+        /* background-image: url('login.jfif');
+        background-size: cover; */
+    }
+    .bmi-2 form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 90vh;
+        width: 100%;
+    }
+    .bmi-2 label{
+        text-align: center;
+        font-size: 1.5rem;
+        color: whitesmoke;
+        font-weight: 600;
+    }
+    .bmi-2 input{
+        height: 5vh;
+        width: 80vw;
+        font-size: 1.2rem;
+        font-family: sans-serif;
+    }
+    .bmi-2 button{
+        background-color: yellow;
+        height: 5vh;
+        width: 35vw;
+        font-size: 1.2rem;
+        font-weight: 700;
+        border: 2px solid yellow;
+    }
+    .bmi-2 p{
+        color: whitesmoke;
+        font-weight: 600;
+    }
+    .bmi-2 select{
+        height: 6vh;
+        width: 25vw;
+    }
+    .gender{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 7vh;
+        width: 90%;
+    }
+    /* PUSH PULL LEGS */
+    .PPL{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #171717;
+    }
+    .PPL-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 90vh;
+        width: 100%;
+    }
+    .PPL-1 h1{
+        color: whitesmoke;
+    }
+    .PPL-1 h2{
+        color: #fcd110;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .PPL-11{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 8vh;
+        width: 100%;
+    }
+    .PPL-11 button{
+        height: 6vh;
+        width: 30vw;
+        background-color: #ff1616;
+        border: 2px solid #ff1616;
+        color: whitesmoke;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .PPL-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .PPL-2 table{
+        width: 90%;
+        border: 2px solid transparent;
+        color: #fcd110;
+    }
+    .PPL-2 table tr{
+        height: 5vh;
+        width: 90%;
+        border: 2px solid black;
+    }
+    .PPL-2 table td{
+        height: 5vh;
+        border: 5px solid black;
+    }
+    .landing-page{
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        background: black;
+    }
+    .landing-page img{
+        height: 25vh;
+    }
+    /* NEWWW */
+    .wlandingpage{
+        height: 270vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .wlandingpage-1{
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .wlandingpage-1 img{
+        height:45vh;
+    }
+    .wlandingpage-2{
+        height: 180vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .wlandingpage-2 p{
+        color: whitesmoke;
+        font-size: 1.5rem;
+    }
+    .wl-1{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .wl-11{
+        height: 30vh;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background-color:#c12518;
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .wl-11 h2{
+        color: whitesmoke;
+    }
+    .wl-11 p{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    .wl-111{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background-color: black;
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .wl-111 h2{
+        color: #fcd110;
+    }
+    .wl-111 p{
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    .diy{
+        height: 80vh;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .diy img{
+        height: 40vh;
+    }
+}
+@media screen and (min-width:1201px) and (max-width:1300px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .bmi{
+        height: 180vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .bmi-1{
+        height: 90vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .bmi-1 img{
+        height: 24vh;
+    }
+    .bmi-1 p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .bmi-2{
+        height: 80vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 90%;
+        border: 5px solid whitesmoke;
+        /* background-image: url('login.jfif');
+        background-size: cover; */
+    }
+    .bmi-2 form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 90vh;
+        width: 100%;
+    }
+    .bmi-2 label{
+        text-align: center;
+        font-size: 1.5rem;
+        color: whitesmoke;
+        font-weight: 600;
+    }
+    .bmi-2 input{
+        height: 5vh;
+        width: 80vw;
+        font-size: 1.2rem;
+        font-family: sans-serif;
+    }
+    .bmi-2 button{
+        background-color: yellow;
+        height: 5vh;
+        width: 35vw;
+        font-size: 1.2rem;
+        font-weight: 700;
+        border: 2px solid yellow;
+    }
+    .bmi-2 p{
+        color: whitesmoke;
+        font-weight: 600;
+    }
+    .bmi-2 select{
+        height: 6vh;
+        width: 25vw;
+    }
+    .gender{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 7vh;
+        width: 90%;
+    }
+    /* PUSH PULL LEGS */
+    .PPL{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #171717;
+    }
+    .PPL-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 90vh;
+        width: 100%;
+    }
+    .PPL-1 h1{
+        color: whitesmoke;
+    }
+    .PPL-1 h2{
+        color: #fcd110;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .PPL-11{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 8vh;
+        width: 100%;
+    }
+    .PPL-11 button{
+        height: 6vh;
+        width: 30vw;
+        background-color: #ff1616;
+        border: 2px solid #ff1616;
+        color: whitesmoke;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .PPL-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .PPL-2 table{
+        width: 90%;
+        border: 2px solid transparent;
+        color: #fcd110;
+    }
+    .PPL-2 table tr{
+        height: 5vh;
+        width: 90%;
+        border: 2px solid black;
+    }
+    .PPL-2 table td{
+        height: 5vh;
+        border: 5px solid black;
+    }
+    .landing-page{
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        background: black;
+    }
+    .landing-page img{
+        height: 25vh;
+    }
+    /* NEWWW */
+    .wlandingpage{
+        height: 270vh;
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .wlandingpage-1{
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .wlandingpage-1 img{
+        height:45vh;
+    }
+    .wlandingpage-2{
+        height: 180vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .wlandingpage-2 p{
+        color: whitesmoke;
+        font-size: 1.5rem;
+    }
+    .wl-1{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .wl-11{
+        height: 30vh;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background-color: #c12518;
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .wl-11 h2{
+        color: whitesmoke;
+    }
+    .wl-11 p{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    .wl-111{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background-color: black;
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .wl-111 h2{
+        color: #fcd110;
+    }
+    .wl-111 p{
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    .diy{
+        height: 80vh;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .diy img{
+        height: 40vh;
+    }
+}

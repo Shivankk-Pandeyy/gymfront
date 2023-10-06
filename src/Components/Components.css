@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Young Serif', serif;
+}
+/* HEADER */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    background-color: #171717;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 30%;
+}
+.name p{
+    font-size: 1.5rem;
+    transition: all 1s;
+    font-family: 'Young Serif', serif;
+    color: #ffffff;
+}
+.name img{
+    height: 8vh;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 70%;
+}
+.links a{
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 1s;
+    font-family: 'Young Serif', serif;
+    color: #ffffff;
+}
+.links a:not(.active):hover{
+    font-size: 2rem;
+}
+.links .active{
+    color: #fcd110;
+}
+.menu{
+display: none;
+}
+/* FOOTER */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    background-color: #171717;
+}
+.footer p{
+    font-size: 1.5rem;
+    transition: all 1s;
+    cursor: pointer;
+    font-family: 'Young Serif', serif;
+    color: #ffffff;
+}
+.footer p:hover{
+    font-size: 2rem;
+    color: #fcd110;
+}
+@media screen and (min-width:300px) and (max-width:1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Young Serif', serif;
+    }
+    /* HEADER */
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        background-color: #171717;
+    }
+    .header-on{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 100vh;
+        background-color: #171717;
+    }
+    .name{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 80%;
+    }
+    .name p{
+        font-size: 1.2rem;
+        transition: all 1s;
+        font-family: 'Young Serif', serif;
+        color: #ffffff;
+    }
+    .name img{
+        height: 8vh;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 60%;
+        display: none;
+    }
+    .links a{
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: all 1s;
+        font-family: 'Young Serif', serif;
+        color: #ffffff;
+    }
+    .links-on{
+        position: absolute;
+        top: 20%;
+        right: 18%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 60%;
+        border: 2px solid white;
+        height: 60vh;
+    }
+    .links-on a{
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: all 1s;
+        font-family: 'Young Serif', serif;
+        color: #ffffff;
+    }
+    
+    .links-on a:not(.active):hover{
+        font-size: 2rem;
+    }
+    .links-on .active{
+        color: #fcd110;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        width: 20%;
+    }
+    .menu img{
+        height: 8vh;
+        cursor: pointer;
+    }
+    /* FOOTER */
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        background-color: #171717;
+    }
+    .footer p{
+        font-size: 1.2rem;
+        transition: all 1s;
+        cursor: pointer;
+        font-family: 'Young Serif', serif;
+        color: #ffffff;
+    }
+    .footer p:hover{
+        font-size: 2rem;
+        color: #fcd110;
+    }
+}
